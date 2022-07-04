@@ -1,19 +1,10 @@
-# Symtable
 
-Symbol Table: a symbol table is a stack of scopes, typically used by a
-// compiler to keep track of symbols in a program (functions, variables,
-// types, etc.).  In most programming languages, you "enter scope" when you 
-// see {, and "exit scope" when you see the corresponding }.  Example:
-//
-// int main()
-// {              <-- enterScope()
-//    int i;      <-- enter "i" into symbol table as type "int"
-//    .
-//    .
-//    while (true)
-//    {              <-- enterScope()
-//       char i;     <-- enter "i" into symbol table as type "char"
-//
-// Notice there are two variables named "i", which is legal because
-// they are in different scopes.
+Symbol Table is a program that portrays a stack of scopes, typically used by a
+compiler to keep track of symbols in a program for things such as functions, variables,
+types, etc.  In most programming languages, you "enter scope" when you 
+see {, and "exit scope" when you see the corresponding }. This program utilizes inheritance, 
+object handlers, and polymorphism. The program itself runs on a stack data structure and executes 
+code in the order from top to bottom, with the most current code being executed on top of the 
+stack and then popped.
+
 
